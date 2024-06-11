@@ -13,12 +13,12 @@ import { playlists } from "@/lib/data"
     <ul>
       <SideMenuItem href="/">
         <HomeIcon />
-         Inicio
+         Home
       </SideMenuItem>
 
       <SideMenuItem href="/#">
         <SearchIcon />
-         Buscar
+         Search
       </SideMenuItem>
     </ul>
   </div>
@@ -27,7 +27,7 @@ import { playlists } from "@/lib/data"
     <ul>
       <SideMenuItem href="/">
         <LibraryIcon />
-         Tu biblioteca
+         Your Library
       </SideMenuItem>
 
       {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
